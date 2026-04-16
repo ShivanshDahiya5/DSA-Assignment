@@ -1,0 +1,41 @@
+--- Dynamic Array ---
+Inserted 0 | Size: 1, Capacity: 2
+Inserted 1 | Size: 2, Capacity: 2
+Resizing array...
+Inserted 2 | Size: 3, Capacity: 4
+Inserted 3 | Size: 4, Capacity: 4
+Resizing array...
+Inserted 4 | Size: 5, Capacity: 8
+Inserted 5 | Size: 6, Capacity: 8
+Inserted 6 | Size: 7, Capacity: 8
+Inserted 7 | Size: 8, Capacity: 8
+Resizing array...
+Inserted 8 | Size: 9, Capacity: 16
+Inserted 9 | Size: 10, Capacity: 16
+Array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Popped 9
+Popped 8
+Popped 7
+Array: [0, 1, 2, 3, 4, 5, 6]
+
+--- Singly Linked List ---
+2 -> 3 -> 5 -> 7 -> None
+2 -> 3 -> 7 -> None
+
+--- Doubly Linked List ---
+1 <-> 2 <-> 4 <-> 3 <-> None
+1 <-> 4 <-> 3 <-> None
+
+--- Stack ---
+Pop: 20
+Peek: 10
+
+--- Queue ---
+Dequeue: 1
+Front: 2
+
+--- Parentheses Checker ---
+([]) -> True
+([)] -> False
+((( -> False
+ -> True
